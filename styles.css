@@ -113,6 +113,11 @@
              margin: 0 0 24px;
          }
          
+         h2.content-title {
+             text-align: right;
+             border-right: 4px;
+         }
+         
          p {
              color: black;
              font-family: 'Raleway', sans-serif;
@@ -204,10 +209,6 @@
              transition: all 0.25s ease-in;
          }
          
-         h2 {
-             text-align: center;
-         }
-         
          #menu .items a {
              margin: 15px 15px 15px 15px;
          }
@@ -261,6 +262,10 @@
              align-items: center;
          }
          
+         #section-one-image {
+             height: 30vh;
+         }
+         
          #section-two {
              background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("assets/background-images/shaders/pic03.jpg");
              background-repeat: no-repeat;
@@ -283,15 +288,12 @@
          .section-container {
              margin: 0 auto;
              width: 80vw;
+             display: flex;
          }
          
          .section-one-content {
              display: flex;
              width: 100%;
-         }
-         
-         #section-one-image {
-             height: 30vh;
          }
          
          .section-two-content {
@@ -410,7 +412,7 @@
              }
              #hero .hero-container {
                  flex-direction: column;
-                 overflow: auto
+                 overflow: auto;
              }
              #hero-title {
                  font-size: 50px;
